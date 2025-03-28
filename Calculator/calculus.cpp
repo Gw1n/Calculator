@@ -114,6 +114,7 @@ void Calculus::on_delete_2_clicked()
 
 void Calculus::on_clear_clicked()
 {
+    labelstring_.clear();
     ui -> label -> setText("");
 }
 
